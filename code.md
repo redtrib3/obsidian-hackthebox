@@ -471,10 +471,12 @@ So in simple terms here is what you need to do:
 - After push the code with the tag
 
 ```bash
+vim manifest.json # increament the version MAJOR.MINOR.PATCH
 git add .
-git commit -m "Your commit Message"
-git tag v1.0.1 # this must match your manifest.json file
-git push origin v1.0.1
+git commit -m ":zap: Commit message" # follow gitmoji convention
+git push
+git tag tag v2.0.9 # must be same as manifest.json version
+git push origin v2.0.9 # same as above
 ```
 
 # TODO
