@@ -477,8 +477,8 @@ body {
   /* non existing note as in unresolved */
   --link-unresolved-color: #ff8484;
   /* non obsidian links as in external  */
-  --link-external-color: #007bff !important;
-  --link-external-color-hover: #007bff !important;
+  --link-external-color: #B2F233 !important;
+  --link-external-color-hover: #B2F233 !important;
   --link-external-decoration-hover: underline !important;
   --link-external-decoration: normal;
 }
